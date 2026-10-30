@@ -1,0 +1,2 @@
+# The deployed dashboard uses only Streamlit and its transitive dependencies.
+streamlit>=1.36,<2

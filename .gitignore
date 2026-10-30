@@ -1,1 +1,39 @@
+# Python bytecode and test/build output
 __pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Streamlit local configuration, secrets, and runtime files
+.streamlit/secrets.toml
+.streamlit/*.db
+
+# Environment files and local editor/OS files
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Model checkpoints and experiment artifacts
+*.pt
+*.pth
+*.ckpt
+runs/
+models/
